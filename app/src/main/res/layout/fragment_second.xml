@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/fragmentTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_fragment"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_data"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/dataFromFirstFrag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_value"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dataToFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/sendBackFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/data_back_to_frag"
+        />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DataHandling</string>
+    <string name="activity">Activity</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="default_value">Default</string>
+    <string name="fragment_data">Data from Fragment : </string>
+    <string name="activity_data">Data from Activity : </string>
+    <string name="data_to_frag">Send Data To Fragment</string>
+    <string name="data_back_to_act">Send Data Back to Activity</string>
+    <string name="data_back_to_frag">Send Data Back to Fragment</string>
+
+</resources>
