@@ -1,4 +1,4 @@
-package com.app.dummyscrollview;
+package com.app.datahandling;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
